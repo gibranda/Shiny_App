@@ -23,7 +23,7 @@
      data <- mutate(data, Transmission = ifelse(Transmission==0, "Automatic", "Manual"))
      data <- arrange(data, GasolineExpenditure)
      data
-   }, options = list(lengthMenu = c(10, 20, 30,40), pageLength = 20))
+   }, options = list(lengthMenu = c(10, 20, 30,40), pageLength = 10))
  })
 # ShinyServer(function(input, output) {
 #   output$data <- renderTable({
