@@ -25,9 +25,3 @@
      data
    }, options = list(lengthMenu = c(10, 20, 30,40), pageLength = 10))
  })
-# ShinyServer(function(input, output) {
-#   output$data <- renderTable({
-#     mtcars[, c("mpg", input$variable), drop = FALSE]
-#   }, rownames = TRUE)
-# }
-# )

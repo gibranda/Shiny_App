@@ -35,7 +35,7 @@ shinyUI(navbarPage("Rental Car Selections based on Your need",
                                   It requires your inputs prefrence like distance of your trip and the price of gasoline,etc. 
                                   It's needed to calculate the Gasoline Expenditure for each car. Next with provided budget on gasoline, it can  show the car which has Miles per Gallon(MPG) that fit in your budget.
                                   
-                                  Second, you can choose your desire cars characteristic in term of : Cylinders, Horse Power and Transmission.
+                                  Also, you can choose your desire cars characteristic by selecting : Cylinders, Horse Power and Transmission type.
                                   
                                   The result contains selected cars based on selection criteria in a table on the Result tab with using the [mtcars] dataset from [R] repository. You can sort the table according to the variable you want by clicking the arrows at the top of the table.")
                              )
